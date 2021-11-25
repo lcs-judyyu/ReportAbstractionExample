@@ -14,6 +14,7 @@
 		0EDD8086274D653D00829555 /* ReportsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDD8085274D653D00829555 /* ReportsListView.swift */; };
 		5AD8743B274FD2B000B4BDD4 /* ReportDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD8743A274FD2B000B4BDD4 /* ReportDetailView.swift */; };
 		5AD8743D274FD96A00B4BDD4 /* Brush Script.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5AD8743C274FD96A00B4BDD4 /* Brush Script.ttf */; };
+		5AD87440274FDBF200B4BDD4 /* Bodoni 72 Smallcaps Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5AD8743F274FDBF200B4BDD4 /* Bodoni 72 Smallcaps Book.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5AD8743A274FD2B000B4BDD4 /* ReportDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportDetailView.swift; sourceTree = "<group>"; };
 		5AD8743C274FD96A00B4BDD4 /* Brush Script.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Brush Script.ttf"; sourceTree = "<group>"; };
 		5AD8743E274FD9CC00B4BDD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		5AD8743F274FDBF200B4BDD4 /* Bodoni 72 Smallcaps Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bodoni 72 Smallcaps Book.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				0EDD8085274D653D00829555 /* ReportsListView.swift */,
 				5AD8743A274FD2B000B4BDD4 /* ReportDetailView.swift */,
 				5AD8743C274FD96A00B4BDD4 /* Brush Script.ttf */,
+				5AD8743F274FDBF200B4BDD4 /* Bodoni 72 Smallcaps Book.ttf */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				0EDD807B274D647600829555 /* Preview Assets.xcassets in Resources */,
 				5AD8743D274FD96A00B4BDD4 /* Brush Script.ttf in Resources */,
 				0EDD8078274D647600829555 /* Assets.xcassets in Resources */,
+				5AD87440274FDBF200B4BDD4 /* Bodoni 72 Smallcaps Book.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

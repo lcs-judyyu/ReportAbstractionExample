@@ -5,6 +5,7 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>Brush Script.ttf</string>
+		<string>Bodoni 72 Smallcaps Book.ttf</string>
 	</array>
 </dict>
 </plist>

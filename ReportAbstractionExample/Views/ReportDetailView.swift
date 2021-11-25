@@ -18,13 +18,15 @@ struct ReportDetailView: View {
             ZStack {
                 Color.yellow.opacity(0.88)
                 
-                VStack(spacing: 15){
+                VStack(spacing: 10){
                     Text(thisRepot.name)
                         .font(Font.custom("Brush Script MT", size: 50))
                         .font(.title)
                     
                     Text("\(thisRepot.grade)")
+                        .font(Font.custom("Bodoni 72 Smallcaps", size: 30))
                         .font(.title2)
+                        .padding(.bottom, 15)
                     
                     Text("Commemt: " + thisRepot.comment)
                         .padding(.horizontal, 30)
