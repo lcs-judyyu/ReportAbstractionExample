@@ -7,14 +7,25 @@
 
 import Foundation
 
-struct Report {
+//MODEL
+// Simply a description of the data that our app beeds to show
+//"identifiablr" means that we promise to include an "id" property that will contain a unique identifier
+
+struct Report: Identifiable {
     
+    //MARK: Stored Properties
+    //This property is automatically given a value
+    //The = is an assignment
+    let id = UUID()
+    
+    //these properties must be initialize with an argument
     let name: String
     let grade: Int
     let comment: String
     
 }
 
+//list of instances
 let listOfReports = [
     Report(name: "Bethany Barr",
            grade: 50,
