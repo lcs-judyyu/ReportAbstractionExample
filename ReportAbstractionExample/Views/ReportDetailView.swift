@@ -19,14 +19,19 @@ struct ReportDetailView: View {
                 Color.yellow.opacity(0.88)
                 
                 VStack(spacing: 10){
+                    VStack {
                     Text(thisRepot.name)
                         .font(Font.custom("Brush Script MT", size: 50))
                         .font(.title)
                     
                     Text("\(thisRepot.grade)")
+                        .bold()
                         .font(Font.custom("Bodoni 72 Smallcaps", size: 30))
                         .font(.title2)
-                        .padding(.bottom, 15)
+                    }
+                    .padding(20)
+                    .border(Color.gray.opacity(0.9), width: 3)
+                    .padding(.bottom, 15)
                     
                     Text("Commemt: " + thisRepot.comment)
                         .padding(.horizontal, 30)
