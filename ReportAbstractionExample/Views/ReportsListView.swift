@@ -11,7 +11,7 @@ struct ReportsListView: View {
     var body: some View {
         List {
             
-            // repace teh concrete list of names with an abstraction
+            // repace the concrete list of names with an abstraction
             //the abstraction is using a ForEach structure to iterate over the list from the model
             //This (when the app runs) builds the list of names
             //"listOfReports? is the input list

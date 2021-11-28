@@ -18,7 +18,7 @@ struct ReportDetailView: View {
             ZStack {
                 Color.yellow.opacity(0.88)
                 
-                VStack(spacing: 10){
+                VStack(alignment: .center, spacing: 10){
                     VStack {
                     Text(thisRepot.name)
                         .font(Font.custom("Brush Script MT", size: 50))
